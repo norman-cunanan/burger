@@ -2,6 +2,7 @@ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  border: 2px solid;
   border-radius: 25px;
 }
 
@@ -11,8 +12,6 @@ li {
   background: aqua;
 }
 
-/*.devour-btn {
+/*form.devour-btn {
 	height: 34px;
-	width: 87px;
-}
-*/
+}*/

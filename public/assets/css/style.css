@@ -2,6 +2,7 @@ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  border-radius: 25px;
 }
 
 .create-update-form {

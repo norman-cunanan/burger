@@ -1,7 +1,6 @@
-// Import MySQL connection.
 var connection = require("../config/connection.js");
 
-// Object for all our SQL statement functions.
+// SQL statement functions
 var orm = {
   all: function(tableInput, cb) {
     var queryString = "SELECT * FROM " + tableInput + ";";
@@ -31,6 +30,6 @@ var orm = {
   }
 };
 
-// Export the orm object for the model (cat.js).
+// for burger.js (model)
 module.exports = orm;
 
